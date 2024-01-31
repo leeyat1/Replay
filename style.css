@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: #121212;
+    color: #FFFFFF;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+    background-color: #121212;
+    
+  }
+  
+  html {
+    scroll-behavior: smooth;
+    height: 100%;
+    width: 100%;
+  }
+
+  .logo{
+    margin-left: 25px;
+  }
+
+.navbar-custom,
+.navbar-brand,
+.navbar-custom .navbar-text,
+.nav-link,
+.nav-item,
+a .nav-link,
+.logo-custom,
+logo,
+img,
+.Title-custom,
+a.nav-link-cutom {
+  background-color: #181818;
+}
+
+.navbar-custom {
+  background-color: #181818;
+}
+
+.nav-link,
+.nav-item,
+a .nav-link {
+  color: #181818;
+}
+
+
+#albums{
+  padding: 40px;
+  height: 600px;
+  background-color:  #121212;
+  }
+
+.song-description, .song-description-alt{
+  width: 500px;
+}
+
+    .box{
+        display: flex;
+        flex-direction: left; /* Change to column to stack children vertically */
+        justify-content:center;
+        align-items: center; 
+        border-radius: 10px;
+        padding-top: 15px;
+        height: 400px;
+        width: 160px;
+        margin: 10px;
+        background-color: #181818;
+        overflow: hidden;
+        
+  }
+
+  #quill-icon {
+    background-color: transparent;
+    height: 75px;
+    width: 75px;
+    position: absolute;
+}
+
+.box #quill-icon {
+    display: block;
+    position: absolute;
+    top: 394px; /* Adjust the top position in pixels */
+    right: 142px; /* Adjust the left position in pixels */
+    transition: top 0.3s ease; /* Add a smooth transition effect */
+}
+
+.box:hover #quill-icon {
+    top: 388px; /* Adjust the top position on hover */
+}
+
+.box:hover {
+    background-color: #282828;
+}
+
+/* Alternate Music Box */
+
+.box-alt{
+  display: flex;
+  flex-direction: left; /* Change to column to stack children vertically */
+  justify-content:center;
+  align-items: center; 
+  border-radius: 10px;
+  padding-top: 15px;
+  height: 400px;
+  width: 160px;
+  margin: 10px;
+  background-color: #181818;
+  overflow: hidden;
+}
+
+.box-alt #quill-icon{
+  display: block;
+  position: absolute;
+  top: 58%; /* Initially position the image below the box */
+  left: 81.5%;
+  transition: top 0.3s ease; /* Add a smooth transition effect */
+}
+
+.box-alt:hover #quill-icon {
+top: 57%; /* Slide the image upwards when #box is hovered */
+}
+
+.box-alt:hover{
+background-color: #282828;
+}
+
+.album-container-alt{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: transparent ;
+  margin-right: 30px;
+ 
+}
+
+
+.album-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: transparent ;
+  margin-left: 30px;
+ 
+}
+
+  #album-img{
+    width: 275px;
+    height: 275px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+
+  #album-img-alt{
+    width: 275px;
+    height: 275px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+
+
+
+
+h3, h3 span, p, p span{
+  background-color: transparent; 
+  text-align: center;
+  color: white;
+}
+
+
